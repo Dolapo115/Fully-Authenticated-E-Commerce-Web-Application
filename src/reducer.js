@@ -106,6 +106,7 @@ export default function reducer(state, action) {
       };
 
     case "CART_TOTAL":
+      console.log(state.cartTotal)
       return {
         ...state,
         cartTotal: state.cartTotal + action.price,
@@ -118,7 +119,7 @@ export default function reducer(state, action) {
       let newCart = [...state.cart];
       if (index >= 0) {
         newCart.splice(index, 1);
-      alert("Removed!");
+      //alert("Removed!");
       } else {
         alert(`Cant remove product with id: ${action.id}: Not in cart!`);
       }
