@@ -1,0 +1,137 @@
+.checkouttotal-main{
+    width: 400px;
+    min-height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px black;
+    margin-top: 30px;
+}
+
+.whatsapp-order-link{
+    text-decoration: none;
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.whatsapp-order-link:hover{
+    transform: scale(1.05);
+}
+
+.whatsapp-order-button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* background: rgb(65, 83, 65); */
+    color: white; 
+    font-weight: bold;
+}
+
+.clear-cart{
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* background: rgb(65, 83, 65); */
+    color: white;
+    font-weight: bold;
+
+}
+
+.clear-cart:hover{
+    transform: scale(1.05);
+}
+
+.return-from-checkout-to-shop{
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.return-from-checkout-to-shop:hover{
+    transform: scale(1.05);
+}
+
+.return-from-checkout-to-shop > button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* background-color: rgb(211, 211, 3); */
+    color: black;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 700px){
+
+    .checkouttotal-main{
+    width: 98vw;
+    min-height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px black;
+    margin-top: 30px;
+}
+
+.whatsapp-order-link{
+    text-decoration: none;
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.whatsapp-order-link:hover{
+    transform: scale(1.05);
+}
+
+.whatsapp-order-button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: rgb(65, 83, 65);
+    color: white; 
+    font-weight: bold;
+}
+
+.clear-cart{
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgb(65, 83, 65);
+    color: white;
+    font-weight: bold;
+
+}
+
+.clear-cart:hover{
+    transform: scale(1.05);
+}
+
+.return-from-checkout-to-shop{
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.return-from-checkout-to-shop:hover{
+    transform: scale(1.05);
+}
+
+.return-from-checkout-to-shop > button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgb(211, 211, 3);
+    color: white;
+    font-weight: bolder;
+}
+
+}

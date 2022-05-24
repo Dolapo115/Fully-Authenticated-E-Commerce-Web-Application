@@ -1,0 +1,131 @@
+.hello-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(100% 0, 100% 90%, 75% 100%, 0 100%, 0 0);
+    background: #3344fc;
+}
+
+.greeting{
+    width: 400px;
+    height: 450px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.greeting > h1{
+    font-size: 50px;
+}
+
+.admin-button-div{
+    height: 250px;
+    width: 300px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hello-button{
+    width: 250px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hello-button:hover{
+    transform: scale(1.05);
+}
+
+.create-item{
+    background-color: #ff1700;
+}
+
+
+.delete-item{
+    background-color: #dc2364;
+}
+
+.admin-login-button{
+    background-color: #c301fe;
+}
+
+@media only screen and (max-width: 700px){
+    .hello-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(100% 0, 100% 90%, 75% 100%, 0 100%, 0 0);
+    background: #3344fc;
+}
+
+.greeting{
+    width: 400px;
+    height: 450px;
+    background: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.greeting > h1{
+    font-size: 50px;
+    color: white;
+}
+
+.admin-button-div{
+    height: 180px;
+    width: 300px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hello-button{
+    width: 250px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.hello-button:hover{
+    transform: scale(1.05);
+}
+
+.create-item{
+    background-color: #ff1700;
+}
+
+
+.delete-item{
+    background-color: #dc2364;
+}
+
+.admin-login-button{
+    background-color: #c301fe;
+}
+
+
+}

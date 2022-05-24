@@ -1,0 +1,183 @@
+.login-main{
+    width: 100vw;
+    height: 100vh;
+    /* background: url('../images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: circle(110.1% at 20% -30%);
+    background: #3344fc;
+}
+
+.name-logo-div{
+    width: 80vw;
+    height: 100px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background: #ffffff; */
+    border-radius: 50px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name{
+    font-size: 70px;
+    font-weight: 1000;
+    color: white;
+}
+
+.sign-in-div{
+    width: 500px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.sign-in-button{
+    width: 270px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sign-in-button:hover{
+    transform: scale(1.05);
+}
+
+.google-icon, .shop-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.button-text{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.disclaimer{
+    font-size: 12px;
+    font-weight: 1000;
+    text-align: center;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 700px){
+    .login-main{
+    width: 100vw;
+    height: 800px;
+    /* background: url('../images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(100% 0, 100% 90%, 75% 100%, 0 100%, 0 0);
+    background: #3344fc;
+}
+
+.name-logo-div{
+    width: 80vw;
+    height: 100px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background: #ffffff; */
+    border-radius: 50px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 1000;
+    color: white;
+}
+
+.sign-in-div{
+    width: 100vw;
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.sign-in-button{
+    width: 270px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sign-in-button:hover{
+    transform: scale(1.05);
+}
+
+.google-icon, .shop-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.button-text{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.disclaimer{
+    font-size: 11px;
+    font-weight: 1000;
+    text-align: center;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+}

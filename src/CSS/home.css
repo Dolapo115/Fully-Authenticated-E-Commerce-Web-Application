@@ -1,0 +1,31 @@
+.home-main{
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    /* background: url('../images/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover; */
+    padding-top: 0;
+    object-fit: contain;
+}
+
+.main-div{
+    width: 100%;
+    height: auto;
+    min-height:150vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    object-fit: contain;
+    padding-top: 0!important;
+    /* padding-top: 200px !important; */
+}
