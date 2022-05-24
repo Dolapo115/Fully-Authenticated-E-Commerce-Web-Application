@@ -23,7 +23,7 @@ function Navbar(){
             <strong>Nasie</strong>Collections
           </p>
         </div>
-        <div className="search-bar-div">
+        {/* <div className="search-bar-div">
           <input
             type="text"
             placeholder="Search"
@@ -31,7 +31,7 @@ function Navbar(){
             spellcheck="false"
           />
           <Search className="search-icon" />
-        </div>
+        </div> */}
         <div className="navbar-navigation">
           {/* <div className="navbar-heart">
             <FavoriteIcon />
