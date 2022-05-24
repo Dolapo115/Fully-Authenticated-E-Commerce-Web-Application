@@ -38,7 +38,7 @@ function CheckoutTotal(){
       let sendMessage = _sendMessage.replace(/ /g, '%20')
       setMessage(sendMessage)
       console.log(message)
-      setLink(`https://wa.me/2348180593602?text=${message}. As soon as you can deliver.`);
+      setLink(`https://wa.me/2348180593602?text=${message}`);
       window.open(link, "_blank", "width=300,height=500");
     }
 
